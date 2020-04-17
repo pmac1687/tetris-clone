@@ -11,7 +11,7 @@ class Termino_1(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         self.boundries = boundries
         self.image = img
-        self.image =  pygame.transform.scale(self.image , (50,50))
+        self.image =  pygame.transform.scale(self.image , (20,20))
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
